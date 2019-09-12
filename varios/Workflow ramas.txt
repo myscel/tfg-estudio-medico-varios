@@ -1,0 +1,11 @@
+A través de la consola Git Bash:
+-Para clonar el repositorio en nuestro directorio: git clone https://...
+-Accedemos al directorio donde se encuentra el repositorio de Github
+-Creamos una nueva rama a partir de develop con el comando: git checkout -b new-branch
+-Una vez en esa rama cuando queremos añadir los cambios utilizamos el comando: git add .
+-Cuando queremos commitear los cambios: git commit -m "Descripción de lo realizado"
+-Cuando queremos subir los cambios a la rama: git push
+-Cuando terminamos la tarea, tenemos que mergear la rama con develop, para ello:
+1-Nos cambiamos a la rama develop: git checkout develop
+2-Actualizamos develop: git pull
+3-Mergeamos la rama con develop: git merge new-branch
